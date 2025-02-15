@@ -1,0 +1,55 @@
+/* src/pages/CareerQuestGame.css */
+.career-quest-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #4CAF50;
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .action-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .results ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .results li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .results button {
+    margin-top: 20px;
+  }
+  

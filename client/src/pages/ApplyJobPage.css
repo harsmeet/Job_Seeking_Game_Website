@@ -1,0 +1,110 @@
+/* src/components/ApplyJobPage.css */
+.apply-job-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    /* margin-top: 100px; */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .apply-job-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .apply-job-form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+  }
+  
+  .form-group textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .form-group input[type="file"] {
+    padding: 5px;
+    background-color: #fafafa;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 14px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.2);
+  }
+  
+  .submit-btn:active {
+    transform: scale(0.98);
+  }
+  
+  @media (max-width: 768px) {
+    .apply-job-container {
+      padding: 20px;
+    }
+  
+    .apply-job-form h2 {
+      font-size: 24px;
+    }
+  
+    .form-group label {
+      font-size: 14px;
+    }
+  
+    .submit-btn {
+      font-size: 16px;
+    }
+  }
+  

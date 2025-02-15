@@ -1,0 +1,149 @@
+/* Top section with dark blue background */
+.footer-top {
+  background-color: #075497; /* Set background color to navy blue */
+  color: #ffffff; /* Default text color for the top section */
+  padding: 20px 0; /* Padding for spacing */
+  text-align: center; /* Center align text */
+}
+
+.footer-top .footer-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center elements */
+}
+
+.footer-logo img {
+  max-width: 150px; /* Logo size */
+  margin-bottom: 20px; /* Space below the logo */
+}
+
+.footer-top p {
+  margin: 5px 0; /* Spacing for footer text */
+  font-size: 0.9rem; /* Font size */
+}
+
+.social-icons a {
+  margin: 0 10px; /* Space between social icons */
+  display: inline-block; /* Align icons in a row */
+}
+
+.social-icons img {
+  width: 50px; /* Icon width */
+  height: 50px; /* Icon height */
+  filter: brightness(0) invert(1); /* White icons on dark background */
+}
+
+/* Bottom section with light grey background */
+.footer-bottom {
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 40px 0; /* Padding for spacing */
+}
+
+.footer-bottom .footer-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between columns */
+  max-width: 1200px; /* Max width for the footer */
+  margin: 0 auto; /* Center footer */
+  flex-wrap: wrap; /* Wrap columns if needed */
+}
+
+.footer-columns {
+  display: flex; /* Use flexbox for column layout */
+  justify-content: space-between; /* Equal spacing between columns */
+  width: 100%; /* Full width */
+}
+
+.footer-column {
+  width: 18%; /* Each column takes up 18% of the width for spacing */
+  margin-bottom: 20px; /* Space below columns */
+}
+
+.footer-column h4 {
+  font-size: 1rem; /* Header size */
+  margin-bottom: 10px; /* Space below header */
+  color: #333; /* Header color */
+}
+
+.footer-column a {
+  display: block; /* Block display for links */
+  color: #333; /* Link color */
+  font-size: 0.9rem; /* Font size for links */
+  margin-bottom: 8px; /* Space below links */
+  text-decoration: none; /* No underline */
+}
+
+.footer-column a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer-column img {
+  max-width: 140px; /* Max width for download images */
+  margin-top: 10px; /* Space above images */
+}
+
+.footer-column p {
+  margin: 15px 0 5px; /* Margin for paragraph */
+  font-size: 0.9rem; /* Font size */
+  color: #333; /* Color */
+}
+
+.footer-sub {
+  text-align: right; /* Align logo and copyright text to the right */
+}
+
+.footer-sub p {
+  color: white; /* Change copyright text color to white */
+  font-size: 0.7rem; /* Font size for copyright text */
+}
+
+.footer-social {
+  text-align: right; /* Align social text to the right */
+  margin-top: 10px; /* Space above download section */
+  margin-bottom: 10px; /* Space above download section */
+
+}
+
+.footer-social p {
+  color: white; /* Change social text color to white */
+  font-size: 1rem; /* Font size for social text */
+}
+
+/* Download section */
+.footer-download {
+  margin-top: 10px; /* Space above download section */
+  display: flex; /* Use flexbox for download section */
+  justify-content: flex-start; /* Align to the left */
+}
+
+.footer-download img {
+  margin-right: 10px; /* Space between download images */
+}
+
+
+
+/* Footer styles... */
+
+/* Spacing between footer columns */
+.footer-column {
+  width: 19%; /* Adjusted to fit five columns in a row */
+  margin-bottom: 20px; /* Space below each column */
+}
+
+/* Powered by section */
+.footer-powered {
+  text-align: left; /* Align text to the left */
+  margin-top: 10px; /* Space above powered by text */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+}
+
+.footer-powered h4 {
+  margin-right: 10px; /* Space between the header and the image */
+  margin-left: 20px; /* Space between the header and the image */
+  font-size: 1rem; /* Font size for the header */
+}
+
+.powered-image {
+  max-width: 50px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
